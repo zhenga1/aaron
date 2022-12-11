@@ -12,7 +12,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://github.com',
   baseUrl: '/aaron/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
