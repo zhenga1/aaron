@@ -8,8 +8,8 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Water bottles are cool',
-  tagline: 'Dinosaurs are cool',
+  title: 'Aaron Zheng\'s site',
+  tagline: 'Current college-student and fullstack developer',
   url: 'https://github.com',
   baseUrl: '/aaron/',
   onBrokenLinks: 'ignore',
@@ -84,7 +84,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Aaron\'s Notes',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
