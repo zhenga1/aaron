@@ -11,10 +11,10 @@ const config = {
   title: 'Aaron Zheng\'s site',
   tagline: 'Current college-student and fullstack developer',
   url: 'https://github.com',
-  baseUrl: '/aaron/',
+  baseUrl: '/aaronzheng/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: './img/pfp.jpeg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -82,7 +82,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
             label: 'Aaron\'s Notes',
           },
