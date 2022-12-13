@@ -1,2 +1,0 @@
-- CAL HACKS: apply by 9/29 -> one day bfore deadline
-- STAR Hotfire -> (November sometime, need check)
