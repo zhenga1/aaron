@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/aaronzheng/blog</id>
-    <title>Aaron Zheng's site Blog</title>
+    <title>Aaron Zheng Blog</title>
     <updated>2022-12-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/aaronzheng/blog"/>
-    <subtitle>Aaron Zheng's site Blog</subtitle>
-    <icon>https://github.com/aaronzheng/./img/pfp.jpeg</icon>
+    <subtitle>Aaron Zheng Blog</subtitle>
+    <icon>https://github.com/aaronzheng/./img/pfp.ico</icon>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
         <id>first-blog-post</id>
