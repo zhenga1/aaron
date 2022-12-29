@@ -19,17 +19,7 @@ function HomepageHeader() {
           justifyContent: "space-around",
           columnGap: 24
         }}>
-        {/* <div style={{display: "flex",flexDirection: "column", rowGap:24}}>
-          <>🎓 College Student</>
-            <br />
-            <>👨‍💻 Software Engineer</>
-            <br />
-            <>🧠 Machine Learning enthusiast</>
-            <br />
-            <>⚡ Electronics Engineer</> 
-            <br />
-            <br />
-        </div> */}
+        {/*  */}
         <img
             src={require("@site/static/img/main.gif").default}
             style={{
@@ -72,6 +62,24 @@ function HomepageBridge(){
   )
 }
 
+// function Interests(){
+//   return(
+//   <div style={{display: "flex",flexDirection: "column", rowGap:35}}>
+//     <div style={{position: "relative", textAlign: "center", fontSize: "50px"}}>My Interests</div>
+//     <div style={{display: "flex",flexDirection: "column", rowGap:24}}>
+//             <>🎓 College Student</>
+//               <br />
+//               <>👨‍💻 Software Engineer</>
+//               <br />
+//               <>🧠 Machine Learning enthusiast</>
+//               <br />
+//               <>⚡ Electronics Engineer</> 
+//               <br />
+//               <br />
+//           </div>
+//   </div>
+//   )
+// }
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
