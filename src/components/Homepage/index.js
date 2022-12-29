@@ -29,6 +29,18 @@ const ListofProjs = [
         SRC:require("@site/static/img/phocabularylogo.png").default
     },
     {
+        title: 'Anodroid',
+        role: 'Creator',
+        description: (
+            <>
+            Anodroid is a 12-DOF humanoid-robot. It is an integrated machine that can move around on flat and tilted surfaces. 
+            It has yet to be able to walk and run.
+            </>
+        ),
+        link:"https://github.com/zhenga1/Anodroid",
+        SRC:require("@site/static/img/anodroid_logo.png").default
+    },
+    {
         title: 'Zensafety',
         role: 'Chief Developer',
         description: (

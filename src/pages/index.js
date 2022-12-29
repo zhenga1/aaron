@@ -56,7 +56,7 @@ function HomepageBridge(){
         <div style={{position: "relative", textAlign: "center", fontSize: "50px"}}>Who am I?</div>
         <div style={{position: "relative", left: 30, fontSize: "20px", paddingLeft: "50px",paddingRight: "50px"}}>
           Hi everyone! My name is Aaron Zheng. On the internet, I exist under two usernames: zhenga1 or aaronyjamesys. 
-          I was born in 2004 around Toronto, but grew up in Hong Kong.
+          I was born in 2004 in Toronto, but grew up in Hong Kong.
           <br/><br/>
           I am currently a first-year student at UC Berkeley pursuing an 
           undergraduate degree in EECS. Currently I am working as an undergraduate researcher
