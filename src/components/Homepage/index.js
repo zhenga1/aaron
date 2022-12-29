@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const ListofProjs = [
     {
         title: 'NOME-JIPCAD',
-        role: 'Undergraduate Researcher',
+        role: 'Undergraduate Researcher at',
         description: (
         <>
         Used antlr4, typescript and regexr to create a customised
@@ -17,7 +17,7 @@ const ListofProjs = [
     },
     {
         title: 'Phocabulary',
-        role: 'Chief Developer',
+        role: 'Chief Developer at',
         description: (
             <>
             Phocabulary is an educational app built for students, by students. 
@@ -30,7 +30,7 @@ const ListofProjs = [
     },
     {
         title: 'Anodroid',
-        role: 'Creator',
+        role: 'Creator of',
         description: (
             <>
             Anodroid is a 12-DOF humanoid-robot. It is an integrated machine that can move around on flat and tilted surfaces. 
@@ -42,7 +42,7 @@ const ListofProjs = [
     },
     {
         title: 'Zensafety',
-        role: 'Chief Developer',
+        role: 'Chief Developer of',
         description: (
             <>
              Zensafety is an application on the Zenbo robot (a humanoid robot developed by Asus) that can help
@@ -72,7 +72,7 @@ function Feature({SRC,role,title,description,link}){
         <div className={styles.projectSection}>
                     <img src={SRC}/>
                     <div style={{marginLeft: 20}}>
-                        <h2 >{title}</h2>
+                        <h2 >{role} {title}</h2>
                         <div>
                         <p>{description}</p>
                         Github link: ——

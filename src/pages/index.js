@@ -5,7 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 //import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageFeatures from '@site/src/components/Homepage';
-
+import Interest from '@site/src/components/HomepageInterests';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -46,7 +46,7 @@ function HomepageBridge(){
         <div style={{position: "relative", textAlign: "center", fontSize: "50px"}}>Who am I?</div>
         <div style={{position: "relative", left: 30, fontSize: "20px", paddingLeft: "50px",paddingRight: "50px"}}>
           Hi everyone! My name is Aaron Zheng. On the internet, I exist under two usernames: zhenga1 or aaronyjamesys. 
-          I was born in 2004 in Toronto, but grew up in Hong Kong.
+          I was born in 2004 in Toronto and grew up in Hong Kong.
           <br/><br/>
           I am currently a first-year student at UC Berkeley pursuing an 
           undergraduate degree in EECS. Currently I am working as an undergraduate researcher
@@ -61,28 +61,6 @@ function HomepageBridge(){
       </div>
   )
 }
-
-function Interests(){
-  return(
-  <div style={{display: "flex",flexDirection: "column", rowGap:35}}>
-    <div style={{position: "relative", textAlign: "center", fontSize: "50px"}}>My Interests</div>
-    {/* <div style={{display: "flex",flexDirection: "column", rowGap:24}}>
-            <>🎓 College Student</>
-              <br />
-              <>👨‍💻 Software Engineer</>
-              <br />
-              <>🧠 Machine Learning enthusiast</>
-              <br />
-              <>⚡ Electronics Engineer</> 
-              <br />
-              <br />
-          </div> */}
-      <div style={{position: "relative", display: "flex", flexDirection:"row", columnGap: 25}}>
-        
-      </div>
-  </div>
-  )
-}
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -93,7 +71,6 @@ export default function Home() {
       <main>
         <HomepageBridge/>
         <HomepageFeatures />
-        <Interests/>
       </main>
     </Layout>
   );
