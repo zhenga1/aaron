@@ -52,9 +52,9 @@ function HomepageHeader() {
 }
 function HomepageBridge(){
   return (
-    <div style={{ display: "flex", flexDirection: "column", rowGap: 24 }}>
-        <div style={{ position: "relative", left: 30, fontSize: "36px" }}>Who am I?</div>
-        <div style={{position: "relative", left: 30, fontSize: "20px"  }}>
+    <div style={{ display: "flex", flexDirection: "column", rowGap: 24}}>
+        <div style={{position: "relative", textAlign: "center", fontSize: "50px"}}>Who am I?</div>
+        <div style={{position: "relative", left: 30, fontSize: "20px", paddingLeft: "50px",paddingRight: "50px"}}>
           Hi everyone! My name is Aaron Zheng. On the internet, I exist under two usernames: zhenga1 or aaronyjamesys. 
           I was born in 2004 around Toronto, but grew up in Hong Kong.
           <br/><br/>
