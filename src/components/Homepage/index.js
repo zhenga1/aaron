@@ -72,7 +72,7 @@ function Feature({SRC,role,title,description,link}){
         <div className={styles.projectSection}>
                     <img src={SRC}/>
                     <div style={{marginLeft: 20}}>
-                        <h2 >{role} {title}</h2>
+                        <h2 >{title}</h2>
                         <div>
                         <p>{description}</p>
                         Github link: ——
