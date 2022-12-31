@@ -1,0 +1,87 @@
+---
+slug: Phocabulary
+title: Phocabulary Blog
+authors:
+  name: Aaron Zheng
+  title: College Student
+  url: https://github.com/zhenga1
+  image_url: https://raw.githubusercontent.com/zhenga1/aaronzheng/main/img/pfp.jpeg
+tags: [phocabulary]
+---
+
+import Phocabularyvid from '@site/static/Phocabulary_app_demo.mp4';
+
+# Phocabulary
+
+## **Table of Contents:**
+- Overview
+- App Demonstration Video
+- My contributions
+	- Learning Page
+	- Camera Page
+	- Recycler Interface
+	- AI model and detection
+- What I learnt
+
+## Overview
+**Phocabulary** is an educational app built for students, by students. Using AI models, Phocabulary allows users to see and learn about physical objects on their camera screens with just a click.
+ 
+Phocabulary targets children across Hong Kong and not only teaches them vocabulary, but also makes them more aware of their surroundings. Our app is already capable of detecting 90+ objects in the environment. Phocabulary will enable accounts/log-in functionality, allowing users to interact with each other. Users will be able to play fun quizzes with other users, allowing them to retain previously learned knowledge and build friendships.
+
+## App Demonstration
+<video width="100%" height="100%" controls muted>
+     <source src={Phocabularyvid}/>
+</video>
+
+## My Contributions
+In the Phocabulary project, I was responsible for the development of the application (i.e., making the application idea into a reality) , including all the building of the various pages of the application, features such as the learning, camera, and recycler interface, and most importantly, the AI models that were used to recognise objects within the user's camera screen.
+
+## Learning Page
+
+### Learning with Camera
+
+![Camera Learning](./IMG_1755.jpg)
+
+### New vocabulary page
+
+![New Vocab](./IMG_1745.jpg)
+
+The learning page consists of a custom AlertDialogue interface that pops up when an object in the Camera is being clicked. Once the **Learn More** button gets clicked, the user is being taken to a new Window where they can learn the word in question, see a picture of it, and a definition. If they click the **Got It** button, a Gif of smiling and clapping pops out. 
+
+## Camera Page:
+
+![Camera Page](./IMG_1747.jpg)
+
+This was made with the builtin Android Camera interface.
+
+## Recycler Interface:
+
+![Recycler Interface](./IMG_1751.jpg)
+
+The recycler interface was built with a dynamically controlled recycler view. The recycler views would be created one at a time, using a datasheet containing all the images and definitions beforehand. 
+
+## Quiz Interface
+#### Correct Answer:
+
+![Correct Ans](./IMG_1753.jpg)
+
+### Wrong Answer:
+
+![Wrong Ans](./IMG_1752.jpg)
+
+### After Clicking the Show Answer button:
+
+![Quiz Interface](./IMG_1746.jpg)
+
+The quiz interface was built with a custom view, comprising of an image on the left, and 3 buttons on the right, representing multiple choice possible answers. Children can click on the buttons to answer the question, which will change the color of the buttons. 
+
+### AI Models, detection
+![AI Models](./IMG_1748.jpg)
+
+The AI models used were **SSD-Mobilenet version 2**, an open-sourced artificial intelligence model with object detection capabilities, as well as **You Only Learn Once** (version 5). 
+
+### What I Learnt
+I learnt more about how object detection models work, and how to train my own object detection models using transfer learning and opencv. Also gained a much deeper understanding of Android studio and the Android application development api, as well as how to incorporate features such as Camera, how to effectively overlay views (such as rectangular boxes to highlight detection), and how to configure and customise android views.
+
+
+

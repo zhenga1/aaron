@@ -1,3 +1,14 @@
+---
+slug: JIPCAD
+title: JIPCAD Blog
+authors:
+  name: Aaron Zheng
+  title: College Student
+  url: https://github.com/zhenga1
+  image_url: https://raw.githubusercontent.com/zhenga1/aaronzheng/main/img/pfp.jpeg
+tags: [jipcad, nome]
+---
+
 # JIPCAD - Joint Interactive Procedural Computer Aided Design
 ### UGIS 192D, Fall 2022
 ## Aaron Zheng 

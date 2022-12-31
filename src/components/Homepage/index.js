@@ -6,6 +6,7 @@ const ListofProjs = [
     {
         title: 'NOME-JIPCAD',
         role: 'Undergraduate Researcher at',
+        site:"/blog/Anodroid_blog.md",
         description: (
         <>
         Used antlr4, typescript and regexr to create a customised
@@ -18,6 +19,7 @@ const ListofProjs = [
     {
         title: 'Phocabulary',
         role: 'Chief Developer at',
+        site:"/blog/Anodroid_blog.md",
         description: (
             <>
             Phocabulary is an educational app built for students, by students. 
@@ -31,6 +33,7 @@ const ListofProjs = [
     {
         title: 'Anodroid',
         role: 'Creator of',
+        site:"/blog/Anodroid_blog.md",
         description: (
             <>
             Anodroid is a 12-DOF humanoid-robot. It is an integrated machine that can move around on flat and tilted surfaces. 
@@ -43,6 +46,7 @@ const ListofProjs = [
     {
         title: 'Zensafety',
         role: 'Chief Developer of',
+        site:"/blog/Anodroid_blog.md",
         description: (
             <>
              Zensafety is an application on the Zenbo robot (a humanoid robot developed by Asus) that can help
@@ -53,7 +57,7 @@ const ListofProjs = [
         SRC:require("@site/static/img/zenbo_robot.png").default
     }
 ]
-function Feature({SRC,role,title,description,link}){
+function Feature({SRC,role,title,description,link,site}){
     return (
         /*<div className={styles.newProjectSection}>
             <h2>Role: {role}</h2>
@@ -69,7 +73,7 @@ function Feature({SRC,role,title,description,link}){
                     </div>
             </div>
         </div>*/
-        <div className={styles.projectSection}>
+        <div className={styles.projectSection} onClick={site}>
                     <img src={SRC}/>
                     <div style={{marginLeft: 20}}>
                         <h2 >{title}</h2>
