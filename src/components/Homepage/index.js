@@ -1,12 +1,13 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const ListofProjs = [
     {
         title: 'NOME-JIPCAD',
         role: 'Undergraduate Researcher at',
-        site:"/blog/Anodroid_blog.md",
+        site:"/blog/JIPCAD",
         description: (
         <>
         Used antlr4, typescript and regexr to create a customised
@@ -19,12 +20,12 @@ const ListofProjs = [
     {
         title: 'Phocabulary',
         role: 'Chief Developer at',
-        site:"/blog/Anodroid_blog.md",
+        site:"/blog/Phocabulary",
         description: (
             <>
-            Phocabulary is an educational app built for students, by students. 
-            Using AI models, Phocabulary allows users to see and learn about physical objects 
-            on their camera screens with just a click. 
+            Use Android SDK to develop Phocabulary, an educational app for students, by students. 
+            Phocabulary allows users to see and learn about physical objects 
+            on their camera screens with just a click using object detection AI models. 
             </>
         ),
         link:"https://github.com/zhenga1/Phocabulary_main",
@@ -33,10 +34,10 @@ const ListofProjs = [
     {
         title: 'Anodroid',
         role: 'Creator of',
-        site:"/blog/Anodroid_blog.md",
+        site:"/blog/Anodroid",
         description: (
             <>
-            Anodroid is a 12-DOF humanoid-robot. It is an integrated machine that can move around on flat and tilted surfaces. 
+            Created Anodroid, a 12-DOF humanoid-robot. Anodroid is an integrated machine that can move around on flat and tilted surfaces. 
             It has yet to be able to walk and run.
             </>
         ),
@@ -46,11 +47,11 @@ const ListofProjs = [
     {
         title: 'Zensafety',
         role: 'Chief Developer of',
-        site:"/blog/Anodroid_blog.md",
+        site:"/blog/Anodroid",
         description: (
             <>
-             Zensafety is an application on the Zenbo robot (a humanoid robot developed by Asus) that can help
-             you easily secure your belongings using AI-object-recognition technology.   
+             Designed and developed Zensafety, an application on the Zenbo robot (a humanoid robot developed by Asus) that can help
+             people secure their belongings using AI-object-recognition technology.   
             </>
         ),
         link:"https://github.com/zhenga1/Zensafety_application_repo",
@@ -73,17 +74,19 @@ function Feature({SRC,role,title,description,link,site}){
                     </div>
             </div>
         </div>*/
-        <div className={styles.projectSection} onClick={site}>
-                    <img src={SRC}/>
-                    <div style={{marginLeft: 20}}>
-                        <h2 >{title}</h2>
-                        <div>
-                        <p>{description}</p>
-                        Github link: ——
-                        <a href={link}>{title}</a>
+        <Link href={site}>
+            <div className={styles.projectSection}>
+                        <img src={SRC}/>
+                        <div style={{marginLeft: 20}}>
+                            <h2 >{title}</h2>
+                            <div>
+                            <p>{description}</p>
+                            Github link: ——
+                            <a href={link}>{title}</a>
+                            </div>
                         </div>
-                    </div>
-        </div>
+            </div>
+        </Link>
     )
 }
 export default function HomepageFeatures(){
