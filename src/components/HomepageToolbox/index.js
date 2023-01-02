@@ -5,7 +5,7 @@ const ListofTools = [
     {
         title: "Gesture Detector",
         description: (<>
-        A Handpose Detector made using tensorflow. 
+        A Handpose Detector made using tensorflow, with react as the frontend. 
         Will detect and show the relevant handpose done by the user through
         an emoji format.
         </>),
