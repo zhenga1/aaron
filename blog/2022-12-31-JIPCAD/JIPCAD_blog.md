@@ -26,7 +26,7 @@ tags: [jipcad, nome]
 ## Overview
 **JIPCAD (Joint Interactive Procedural Computer-Aided Design)** is a new computer-aided design software tool that supports both procedural and interactive modeling. Procedural modeling allows users to use NOME, JIPCAD's proprietary programming language to sketch 3D models. On the other hand, users can also use the user interface to model 3D objects, such as by adding new faces and polylines through the interactive program. 
 
-**JIPCAD** is a design tool that came to being from the **JIPCAD project**, a project initiated and developed by ==Professor Carlo Sequin== and his team of researchers at UC Berkeley. **JIPCAD** is specifically built for the modeling of 2-manifold free-form surfaces of high complexity and inherent regularity, like the [Mobius Strip](https://brilliant.org/wiki/mobius-strips/), or sculptures by artists such as [Eva Hild](https://www.evahild.com/ceramics) or [Charles O. Perry](http://www.charlesperry.com/).
+**JIPCAD** is a design tool that came to being from the **JIPCAD project**, a project initiated and developed by **Professor Carlo Sequin** and his team of researchers at UC Berkeley. **JIPCAD** is specifically built for the modeling of 2-manifold free-form surfaces of high complexity and inherent regularity, like the [Mobius Strip](https://brilliant.org/wiki/mobius-strips/), or sculptures by artists such as [Eva Hild](https://www.evahild.com/ceramics) or [Charles O. Perry](http://www.charlesperry.com/).
 ## Example photos of modeling using JIPCAD
 ![Cable Knot](./Nome3_djJ0AXrJiy.png)
 ![Torus](./Nome3_xUyQCC7Llj.png)
