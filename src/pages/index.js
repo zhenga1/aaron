@@ -7,6 +7,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/Homepage';
 import Interest from '@site/src/components/HomepageInterests';
 import styles from './index.module.css';
+import HomepageToolbox from '../components/HomepageToolbox';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -61,6 +62,7 @@ function HomepageBridge(){
       </div>
   )
 }
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -71,6 +73,7 @@ export default function Home() {
       <main>
         <HomepageBridge/>
         <HomepageFeatures />
+        <HomepageToolbox />
       </main>
     </Layout>
   );
