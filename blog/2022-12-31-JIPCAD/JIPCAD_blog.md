@@ -54,7 +54,7 @@ The NOME JIPCAD extension also has the ability of toggling block comments. In ad
 - **Running of Nome Executable**
 <img src="https://raw.githubusercontent.com/JIPCAD/JIPCAD-vs-code/master/.github/images/run_nome.gif" />
 
-As demonstrated above, the NOME extension allows developers to run the NOME executable without having to use file explorer or navigate directories terminal. Instead, the extensino includes a custom command on VSCode, which allows the NOME executable to be opened and executed. 
+As demonstrated above, the NOME extension allows developers to run the NOME executable without having to use file explorer or navigate directories terminal. Instead, the extension includes a custom command on VSCode, which allows the NOME executable to be opened and executed. 
 
 - **Customize directory of NOME executable**
 <img src="https://raw.githubusercontent.com/JIPCAD/JIPCAD-vs-code/master/.github/images/remote_running.gif" />
