@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
+//import { useNavigate } from "react-router-dom";
 
 const ListofProjs = [
     {
@@ -47,7 +48,7 @@ const ListofProjs = [
     {
         title: 'Zensafety',
         role: 'Chief Developer of',
-        site:"/blog/Anodroid",
+        site:"/blog/Zensafety",
         description: (
             <>
              Designed and developed Zensafety, an application on the Zenbo robot (a humanoid robot developed by Asus) that can help
@@ -59,6 +60,12 @@ const ListofProjs = [
     }
 ]
 function Feature({SRC,role,title,description,link,site}){
+    
+    // let navigate = useNavigate(); 
+    // const routeChange = () =>{ 
+    //     let path = {site}; 
+    //     navigate(path);
+    //   }
     return (
         /*<div className={styles.newProjectSection}>
             <h2>Role: {role}</h2>
@@ -74,11 +81,13 @@ function Feature({SRC,role,title,description,link,site}){
                     </div>
             </div>
         </div>*/
-        <Link href={site}>
+       
             <div className={styles.projectSection}>
                         <img src={SRC}/>
                         <div style={{marginLeft: 20}}>
+                            <Link href={site}>
                             <h2 >{title}</h2>
+                            </Link>
                             <div>
                             <p>{description}</p>
                             Github link: ——
@@ -86,7 +95,7 @@ function Feature({SRC,role,title,description,link,site}){
                             </div>
                         </div>
             </div>
-        </Link>
+        
     )
 }
 export default function HomepageFeatures(){
