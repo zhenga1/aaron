@@ -1,11 +1,13 @@
 ---
 slug: JIPCAD
 title: JIPCAD Blog
+custom_edit_url: null
 authors:
   name: Aaron Zheng
   title: College Student
   url: https://github.com/zhenga1
   image_url: https://raw.githubusercontent.com/zhenga1/aaronzheng/main/img/pfp.jpeg
+hide_table_of_contents: false
 tags: [jipcad, nome]
 ---
 
@@ -34,23 +36,27 @@ tags: [jipcad, nome]
 ### Backend support for the NOME Language
 During my time as a researcher for the JIPCAD project, I was able to develop the first version (**0.0.0**) of a [VSCode extension](https://marketplace.visualstudio.com/items?itemName=AaronZheng.nome) for the proprietary NOME JIPCAD language. The features that I managed to include were the following:
 
-- ***Autocompletion of commands***
+- **Autocompletion of commands**
 <img src="https://raw.githubusercontent.com/JIPCAD/JIPCAD-vs-code/master/.github/images/autocompletion.gif" />
+
 I was able to implement autocompletion features for codeblocks, so that once codeblocks are typed into a code window, the corresponding closing codeblock will appear automatically.  
 
-- ***Syntax coloring***
+- **Syntax coloring**
 <img src="https://raw.githubusercontent.com/JIPCAD/JIPCAD-vs-code/master/.github/images/syntax_highlight.png" />
+
 I was also able to implement *syntax-coloring*, specifically the colouring of **variables**, **commands**, **comments**, and **parameters**. This allows for a more user-friendly interface, as developers using the NOME language can now know what each section of their code represents. 
 
-- ***Commenting***
+- **Commenting**
 <img src="https://raw.githubusercontent.com/JIPCAD/JIPCAD-vs-code/master/.github/images/toggle_block_comment.gif" />
+
 The NOME JIPCAD extension also has the ability of toggling block comments. In addition, with the extension, commenting using the corresponding opening/closing pair `(*` and `*)` is enabled for all files with the `.nom, .jipcad` suffix.
 
-- ***Running of Nome Executable***
+- **Running of Nome Executable**
 <img src="https://raw.githubusercontent.com/JIPCAD/JIPCAD-vs-code/master/.github/images/run_nome.gif" />
+
 As demonstrated above, the NOME extension allows developers to run the NOME executable without having to use file explorer or navigate directories terminal. Instead, the extensino includes a custom command on VSCode, which allows the NOME executable to be opened and executed. 
 
-- ***Customize directory of NOME executable***
+- **Customize directory of NOME executable**
 <img src="https://raw.githubusercontent.com/JIPCAD/JIPCAD-vs-code/master/.github/images/remote_running.gif" />
 Tying back to previous functionality, the NOME VSCode extension allows developers to input a *customised path* of the NOME executable. The default path is the JIPCAD directory located as a subdirectory of the HOME directory. 
 
@@ -59,8 +65,10 @@ In the future, I plan to include more advanced features, such as:
 - **Syntax error reporting**
 
 I believe these features will significantly improve the experience of developers of the NOME proprietary language, as it will greatly simplify their experience in programming with NOME. 
+
 ### Identifying bugs and issues with the JIPCAD software
 While sketching some designs, I was able to identify some issues in relation to the JIPCAD software. I discovered this whilst trying to sketch a robot using the software.
+
 #### My robot sketch
 ![Robot Sketch](./Nome3_cDDVZZUdut.png)
 
