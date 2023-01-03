@@ -11,6 +11,16 @@ const ListofTools = [
         </>),
         link: 'https://zhenga1.github.io/gesturedetectorweb/',
         SRC: require("@site/static/img/gesture.jpg").default
+    },
+    {
+        title: "Write Easy",
+        description: (<>
+        A Flask web app made using Cohere and python as backend that generates paragraphs of 
+        text, saving college student's time by helping them write application essays. 
+        </>),
+        link: 'http://aaronyjamesys.pythonanywhere.com/',
+        SRC: require("@site/static/img/writeeasy.png").default
+
     }
 ]
 function Feature({SRC,title,description,link}){
