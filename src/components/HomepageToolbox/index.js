@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css'
 import Link from '@docusaurus/Link';
-import githubpng from '@site/static/img/Githubpng.png';
+import githubpng from '@site/static/img/GitHubpng.png';
 const ListofTools = [
     {
         title: "Gesture Detector",
