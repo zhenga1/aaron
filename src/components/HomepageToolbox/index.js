@@ -1,6 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css'
+import Link from '@docusaurus/Link';
+const githubpng =  require('@site/static/img/Githubpng.png').default;
 const ListofTools = [
     {
         title: "Gesture Detector",
@@ -10,6 +12,7 @@ const ListofTools = [
         an emoji format.
         </>),
         link: 'https://zhenga1.github.io/gesturedetectorweb/',
+        ghlink:"https://github.com/zhenga1/gesturedetectorweb",
         SRC: require("@site/static/img/gesture.jpg").default
     },
     {
@@ -19,11 +22,12 @@ const ListofTools = [
         text, saving college student's time by helping them write application essays. 
         </>),
         link: 'http://aaronyjamesys.pythonanywhere.com/',
+        ghlink: "https://github.com/zhenga1/writeeasy",
         SRC: require("@site/static/img/writeeasy.png").default
 
     }
 ]
-function Feature({SRC,title,description,link}){
+function Feature({SRC,title,description,link,ghlink}){
     return (
         <div className={styles.projectSection}>
                         <img src={SRC}/>
@@ -31,7 +35,14 @@ function Feature({SRC,title,description,link}){
                             <h1>{title}</h1>
                             <div>
                             <p>{description}</p>
-                            <a href={link}>{title}</a>
+                            
+                            <div style={{display:"flex", flexDirection:"row",columnGap:35}}>
+                                <a href={link}>{title}</a>
+                                <Link href={ghlink}>
+                                <img src={githubpng} style={{height:30,width:30}}/>
+                                </Link>
+                            </div>
+                            
                             </div>
                         </div>
             </div>
