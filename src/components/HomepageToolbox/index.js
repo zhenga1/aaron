@@ -2,7 +2,6 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css'
 import Link from '@docusaurus/Link';
-const githubpng =  require('@site/static/img/Githubpng.png').default;
 const ListofTools = [
     {
         title: "Gesture Detector",
@@ -28,6 +27,7 @@ const ListofTools = [
     }
 ]
 function Feature({SRC,title,description,link,ghlink}){
+    const githubpng =  require('@site/static/img/Githubpng.png').default;
     return (
         <div className={styles.projectSection}>
                         <img src={SRC}/>
