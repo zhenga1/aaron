@@ -10,8 +10,8 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Aaron Zheng',
   tagline: 'Current college-student and fullstack developer',
-  url: 'https://github.com',
-  baseUrl: '/aaronzheng/',
+  url: 'https://aaronzheng.co/',
+  baseUrl: "/",
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: './img/pfp.ico',
