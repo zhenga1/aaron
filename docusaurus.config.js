@@ -105,6 +105,10 @@ const config = {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/users/7056591/aarony-jamesys',
               },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/aaron-zheng-bb1503237/',
+              },
             ],
           },
           {
