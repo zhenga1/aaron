@@ -11,7 +11,7 @@ const config = {
   title: 'Aaron Zheng',
   tagline: 'Current college-student and fullstack developer',
   url: 'https://aaronzheng.co/',
-  baseUrl: "/aaronzheng",
+  baseUrl: "/",
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: './img/pfp.ico',
