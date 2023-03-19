@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaaronzheng=self.webpackChunkaaronzheng||[]).push([[6809],{3783:a=>{a.exports=JSON.parse('{"permalink":"/aaronzheng/blog/tags/phocabulary","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaaronzheng=self.webpackChunkaaronzheng||[]).push([[4924],{9936:a=>{a.exports=JSON.parse('{"label":"phocabulary","permalink":"/aaronzheng/blog/tags/phocabulary","allTagsPath":"/aaronzheng/blog/tags","count":1}')}}]);
