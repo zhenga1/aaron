@@ -58,6 +58,18 @@ const ListofProjs = [
         ),
         link:"https://github.com/zhenga1/Zensafety_application_repo",
         SRC:require("@site/static/img/zenbo_robot.png").default
+    },
+    {
+        title: 'Aquatech',
+        role: 'Chief Developer of',
+        site:"/blog/Aquatech",
+        description: (
+            <>
+            Designed and made Aquatech, an app that helps protect and maintain the cleanliness and water quality of beaches in Hong Kong. 
+            </>
+        ),
+        link:"https://github.com/zhenga1/Aquatech",
+        SRC:require("@site/static/img/Aquatech.png").default
     }
 ]
 function Feature({SRC,role,title,description,link,site}){
