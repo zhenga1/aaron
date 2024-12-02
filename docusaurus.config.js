@@ -10,8 +10,8 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Aaron Zheng',
   tagline: 'Current college-student and fullstack developer',
-  url: 'https://aaronzheng.wiki/',
-  baseUrl: "/",
+  url: 'https://github.com',
+  baseUrl: "/old_aaronzheng",
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: './img/pfp.ico',
@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({ docPath }) => {
-            return `https://github.com/zhenga1/aaronzheng/tree/main/docs/${docPath}`;
+            return `https://github.com/zhenga1/old_aaronzheng/tree/main/docs/${docPath}`;
           },
         },
         blog: {
@@ -59,7 +59,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/zhenga1/aaronzheng/tree/main/blog',
+            'https://github.com/zhenga1/old_aaronzheng/tree/main/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -89,7 +89,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
-            href: 'https://github.com/zhenga1/aaronzheng',
+            href: 'https://github.com/zhenga1/old_aaronzheng',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,7 +107,7 @@ const config = {
               },
               {
                 label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/aaron-zheng-bb1503237/',
+                href: 'https://www.linkedin.com/in/aaronhzheng/',
               },
             ],
           },
