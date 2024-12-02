@@ -34,7 +34,7 @@ Khan academy now uses go not flask.
 
 **Python is very slow.** So usually switching is done to make the language into a compile language. 
 ![[WhatsApp Image 2022-10-24 at 1.36.51 PM.jpeg]]
-{% %} -> is the Django language framework.
+is the Django language framework.
 
 Most popular backend languages:
 - Python 
