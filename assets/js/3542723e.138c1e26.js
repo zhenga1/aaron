@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaaronzheng=self.webpackChunkaaronzheng||[]).push([[2108],{1429:a=>{a.exports=JSON.parse('{"label":"zensafety","permalink":"/old_aaronzheng/blog/tags/zensafety","allTagsPath":"/old_aaronzheng/blog/tags","count":1}')}}]);
